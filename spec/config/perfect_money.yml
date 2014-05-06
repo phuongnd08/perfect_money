@@ -3,11 +3,11 @@ development:
     http_timeout: 45
   accounts:
     -
-      id: account_1
-      account_id: 6344615
-      pass_phrase: KernighanRitchie1978
-      secret_key: GFs6Ab44nC1pzJMeszQfEymnZ6hUeC
+      id: pm_test
+      account_id: 9082732
+      pass_phrase: polopuikiu123
+      secret_key: C9TzRxB5gt20Z3OofLcKmDpnJ
       deposit_account:
-        usd: U6953052
+        usd: U5329529
       withdrawal_account:
-        usd: U6953052
+        usd: U6260277
