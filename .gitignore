@@ -25,3 +25,4 @@ mkmf.log
 log/
 .ruby-gemset
 .ruby-version
+coverage/
