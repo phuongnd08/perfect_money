@@ -12,8 +12,12 @@ module PerfectMoney::Core::API
 			end
 		end
 
-		def initialize(account_name)
-			self.account = account_collection[account_name]
+		def initialize(account_or_account_name)
+      if account_or_account_name.is_a? String
+        self.account = account_collection[account_name]
+      else
+        self.account = account_or_account_name
+      end
 		end
 
 		def service_endpoint
